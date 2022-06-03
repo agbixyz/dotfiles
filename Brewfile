@@ -38,6 +38,8 @@ cask "gitkraken"
 cask "google-chrome"
 # Terminal built on web technologies
 cask "hyper"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform

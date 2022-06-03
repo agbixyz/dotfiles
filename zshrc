@@ -6,14 +6,22 @@ export NULLCMD=bat
 export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
 
-# Change ZSH Options
-# History Options
+## Change ZSH Options
+
+# Adjust History Variables & Options
+# HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
+[[ -z $HISTFILE ]] && HISTFILE="$HOME/.zsh_history"
+HISTSIZE=2000
+SAVEHIST=1000
 setopt histNoStore
 setopt extendedHistory
+
+# History Duplication Options
 setopt histFindNoDups
 setopt histSaveNoDups
 
-# Create Aliases
+
+## Create Aliases
 alias ls='exa -laFh --git'
 alias sz='source ~/.zshrc'
 alias exa='exa -laFh --git'
@@ -22,14 +30,15 @@ alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 alias rm=trash
 
-# Customize Prompt(s)
+
+## Customize Prompt(s)
 PROMPT='
 %1~ %L %# '
 
 RPROMPT='%*'
 
 
-# Add Locations to $path Array
+## Add Locations to $path Array
 typeset -U path
 
 path=(
@@ -40,13 +49,12 @@ path=(
   "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 )
 
-# Write Handy Functions
+
+## Write Handy Functions
 function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
 
 
-
-
-# User ZSH Plugins
+## User ZSH Plugins
 

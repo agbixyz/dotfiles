@@ -72,3 +72,6 @@ function mkcd() {
 # Change Key Bindings
 bindkey "^[[A" up-line-or-search
 bindkey "^[[B" down-line-or-search 
+
+# Load "New" Completion System
+autoload -Uz compinit && compinit

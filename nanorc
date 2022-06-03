@@ -1,0 +1,4 @@
+include /opt/homebrew/share/nano/sh.nanorc
+include /opt/homebrew/share/nano/javascript.nanorc
+include /opt/homebrew/share/nano/json.nanorc
+include /opt/homebrew/share/nano/markdown.nanorc

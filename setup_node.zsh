@@ -12,3 +12,8 @@ else
   n latest
 fi
 
+# Install Global NPM Packages
+npm install --location=global trash-cli
+
+echo "Global NPM Packages Installed:"
+npm list --location=global --depth=0

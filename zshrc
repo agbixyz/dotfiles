@@ -5,6 +5,8 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 export NULLCMD=bat
 export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
+export M_BREW="/opt/homebrew"
+export DOTFILES="$HOME/.dotfiles"
 
 ## Change ZSH Options
 
@@ -51,8 +53,8 @@ typeset -U path
 
 path=(
   "$N_PREFIX/bin"
-  "/opt/homebrew/bin"
-  "/opt/homebrew/sbin"
+  "$M_BREW/bin"
+  "$M_BREW/sbin"
   $path
   "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 )

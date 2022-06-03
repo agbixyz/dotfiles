@@ -22,6 +22,10 @@ setopt extendedHistory
 # setopt histIgnoreDups
 setopt histIgnoreAllDups
 
+# History Appending Options
+# appendHistory is the default, so we don't really need to set it
+setopt appendHistory
+
 
 ## Create Aliases
 alias ls='exa -laFh --git'

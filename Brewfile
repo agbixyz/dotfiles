@@ -1,6 +1,7 @@
 tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
 # Shell plugin manager
 brew "antibody"
@@ -28,6 +29,7 @@ brew "eth-p/software/bat-extras"
 cask "alfred"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+cask "font-fira-code"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser

@@ -36,6 +36,8 @@ cask "font-fira-code"
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
+# Terminal built on web technologies
+cask "hyper"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform

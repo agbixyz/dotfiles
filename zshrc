@@ -42,10 +42,10 @@ alias lh='fc -RI; echo "loaded and showing..."; history;'
 
 
 ## Customize Prompt(s)
-PROMPT='
-%1~ %L %# '
+# PROMPT='
+# %1~ %L %# '
 
-RPROMPT='%*'
+# RPROMPT='%*'
 
 
 ## Add Locations to $path Array

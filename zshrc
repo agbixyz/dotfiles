@@ -27,8 +27,8 @@ setopt histIgnoreAllDups
 # incAppendHistory probably supersedes it anyway)
 unsetopt appendHistory
 # setopt incAppendHistory
-# setopt incAppendHistoryTime
-setopt shareHistory
+setopt incAppendHistoryTime
+# setopt shareHistory
 
 
 ## Create Aliases
@@ -39,6 +39,9 @@ alias man=batman
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 alias rm=trash
+alias gs='git status'
+# Load history into shell (shareHistory alternative)
+alias lh='fc -RI; echo "loaded and showing..."; history;'
 
 
 ## Customize Prompt(s)

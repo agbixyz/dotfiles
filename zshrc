@@ -11,6 +11,7 @@ export PREFIX="$N_PREFIX"
 setopt histNoStore
 setopt extendedHistory
 setopt histFindNoDups
+setopt histSaveNoDups
 
 # Create Aliases
 alias ls='exa -laFh --git'

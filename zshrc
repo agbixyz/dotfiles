@@ -7,7 +7,8 @@ export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
 
 # Change ZSH Options
-
+# History Options
+setopt histNoStore
 
 # Create Aliases
 alias ls='exa -laFh --git'

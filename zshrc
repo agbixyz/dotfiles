@@ -27,7 +27,8 @@ setopt histIgnoreAllDups
 # incAppendHistory probably supersedes it anyway)
 unsetopt appendHistory
 # setopt incAppendHistory
-setopt incAppendHistoryTime
+# setopt incAppendHistoryTime
+setopt shareHistory
 
 
 ## Create Aliases

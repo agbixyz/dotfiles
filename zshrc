@@ -19,6 +19,11 @@ unsetopt appendHistory # explicit and unnecessary
 setopt incAppendHistoryTime
 
 
+# Line Editor Options (Completion & Menu)
+# autoMenu & autoList are on by default
+setopt menuComplete
+
+
 ## Create Aliases
 alias ls='exa -laFh --git'
 alias sz='source ~/.zshrc'

@@ -9,6 +9,13 @@ else
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
+# export HOMEBREW_CASK_OPTS="--no-quarantine --no-binaries"
+
+# HOMEBREW_CASK_OPTS is exported in `zshenv` with
+# `--no-quarantine` and `--no-binaries` options,
+# which makes them available to Homebrew for the
+# first install (before our `zshrc` is sourced).
+
 
 brew bundle --verbose
 

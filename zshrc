@@ -1,10 +1,7 @@
 echo "Hello from .zshrc"
 
 # Set Variables
-export HOMEBREW_CASK_OPTS="--no-quarantine --no-binaries"
 export NULLCMD=bat
-export N_PREFIX="$HOME/.n"
-export PREFIX="$N_PREFIX"
 export M_BREW="/opt/homebrew"
 export DOTFILES="$HOME/.dotfiles"
 

@@ -22,3 +22,9 @@ brew bundle --verbose
 echo "Enter superuser (sudo) password to accept Xcode license"
 sudo xcodebuild -license accept
 sudo xcodebuild -runFirstLaunch
+
+# This works to solve the Insecure Directories issue:
+# compaudit | xargs chmod go-w
+# But this is from the Homebrew site, though `-R` was needed:
+# https://docs.brew.sh/Shell-Completion#configuring-completions-in-zsh
+chmod -R go-w "$(brew --prefix)/share"

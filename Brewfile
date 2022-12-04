@@ -33,6 +33,7 @@ brew "eth-p/software/bat-extras"
 cask "alfred"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Free monospaced font with programming ligatures
 cask "font-fira-code"
 # Git client focusing on productivity
 cask "gitkraken"
@@ -46,5 +47,4 @@ cask "iterm2"
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "KakaoTalk", id: 869223134
-mas "Spark", id: 1176895641
+mas "카카오톡", id: 869223134

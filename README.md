@@ -22,7 +22,7 @@ learned from [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz)
     eval "$(ssh-agent -s)"
     # Create config file with necessary settings
     << EOF > ~/.ssh/config
-    Host *
+    Host *.github
       AddKeysToAgent yes
       UseKeychain yes
       IdentityFile ~/.ssh/id_ed25519

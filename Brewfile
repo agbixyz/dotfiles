@@ -43,6 +43,8 @@ cask "google-chrome"
 cask "hyper"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Management tool for Unity
+cask "unity-hub"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform

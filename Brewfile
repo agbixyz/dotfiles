@@ -41,6 +41,8 @@ cask "google-chrome"
 cask "hyper"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# .NET IDE
+cask "rider"
 # Management tool for Unity
 cask "unity-hub"
 # Open-source code editor
